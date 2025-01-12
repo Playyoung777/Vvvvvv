@@ -1,0 +1,94 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #333;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1.5rem;
+}
+
+#hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(to right, #4caf50, #81c784);
+  color: #fff;
+}
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+#hero .btn {
+  background: #fff;
+  color: #4caf50;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#products {
+  padding: 2rem;
+  text-align: center;
+}
+
+#products h2 {
+  margin-bottom: 1.5rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+.product p {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  margin-top: 2rem;
+}
